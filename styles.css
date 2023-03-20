@@ -1,0 +1,42 @@
+#container{
+    position: relative;
+    margin: auto;
+    height: 44vw;
+    width: 44vw;
+    background-image: url("depositphotos_90796066-stock-photo-blank-clock-dial-without-hands.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#hour, #minute, #second{
+   position: absolute;
+   background: black; 
+   border-radius: 20%;
+   transform-origin: bottom;
+}
+
+#hour{
+    height: 128px;
+    width: 17px;
+    top: 180px;
+    left: 298.5px;
+   
+}
+
+#minute{
+    height: 169px;
+    width: 11px;
+    top: 140px;
+    left: 301.5px;
+    
+
+}
+
+
+#second{
+    height: 204px;
+    width: 5px;
+    top: 103px;
+    left: 305px;
+}
